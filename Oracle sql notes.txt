@@ -1,0 +1,21 @@
+COUNT(*)
+Return total number of records in table
+
+COUNT(COLUMN)
+Return count of all non-null values
+
+
+
+UNION
+Merge two sets and eliminate duplicate rows and results will be sorted by the first column. 
+
+UNION ALL
+Merge two sets but does not remove duplicates and won’t sort results.
+
+
+
+VARCHAR
+Is reserved by Oracle to support distinction between NULL and empty string in future.
+
+VARCHAR2
+Does not distinguish between a NULL and empty string and never will.
